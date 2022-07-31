@@ -1,0 +1,28 @@
+.component_wrapper {
+  display: flex;
+}
+
+.title_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.component {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.component_wrapper {
+  width: 100vw;
+  margin: 0 30px;
+}
+
+@media (max-width: 900px) {
+  .component_wrapper {
+    width: 100vw;
+    /* margin: 0px 10px; */
+  }
+}

@@ -1,0 +1,95 @@
+.user_wrapper {
+  width: 100%;
+}
+
+.header_title {
+  text-align: center;
+}
+
+.add_user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.add_user button {
+  height: 45px;
+  width: 200px;
+  color: #ffff;
+  background-color: #000000;
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.user_filter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem 10px;
+}
+
+.input_field input {
+  height: 45px;
+  width: 250px;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  font-size: 20px;
+  padding: 0 10px;
+}
+.table_wrapper {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  overflow-y: scroll;
+  border-collapse: collapse;
+}
+
+th {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  text-align: left;
+  background-color: #000000;
+  color: white;
+}
+
+td {
+  padding: 20px 10px;
+  /* margin: 0 10px; */
+  /* text-align: center; */
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.table_header_row th {
+  margin-bottom: 2rem;
+}
+
+.action_btn {
+  color: white;
+  height: 45px;
+  width: 80px;
+  border: 0;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.action_btn.delete_btn {
+  background-color: red;
+}
+
+.action_btn.edit_btn {
+  background-color: rgb(2, 221, 49);
+}
+.user_not_found {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
